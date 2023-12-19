@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App20.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#FF0099" Padding="24" CornerRadius="0">
+            <Label Text="This is your first App!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Frame BackgroundColor="#EE0088" Padding="24" CornerRadius="0">
+            <Label Text="Look how it has changed" HorizontalTextAlignment="Center" TextColor="#EEEEEE" FontSize="36"/>
+        </Frame>
+        <Frame BackgroundColor="#EE0088" Padding="24" CornerRadius="0">
+            <Label Text="Experimenting with frames!" HorizontalTextAlignment="Center" TextColor="#EEEEEE" FontSize="36"/>
+        </Frame>
+        <Label Text="This should arrive on your phone" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Here are some changes to the app!" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Just added another label here .. " FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="And another one here .. " FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Loving the padding .. " FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="If you want to read the news: "/>
+                        <Span></Span>
+                        <Span Text="https://www.bbc.co.uk" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
